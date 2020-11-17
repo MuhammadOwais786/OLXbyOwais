@@ -1,0 +1,51 @@
+.left-card li:hover{
+background-color: #f0f4f0;
+border-bottom: 1px solid lightgrey;
+}
+.left-card li{
+ padding-top: 10px;
+ padding-left: 10px;
+
+}
+.left-card, .card-header, .card-body{
+padding: 0;
+margin: 0;
+}
+.left-card .body , .right-card .card-body{
+ overflow-x: hidden;
+ overflow-y: auto;
+}
+
+.card-footer{
+ position:fixed;
+ bottom: 0;
+ left:0;
+ width: 100%;
+}
+.chats{
+    padding: 10px 0 0 0;
+    transition: 1s;
+}
+.chats:hover{
+    background-color: #084b4b;
+    color: #fff;
+}
+.chats:hover .name{
+    color: #fff !important;
+}
+@media (max-width:1400px){
+ .left-card{
+  height:40rem
+ }
+ .right-card{
+  height:40rem
+ }
+}
+@media (max-width:1500px){
+ .left-card{
+  height:50rem
+ }
+ .right-card{
+  height:50rem
+ }
+}
